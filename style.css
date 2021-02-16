@@ -1,0 +1,35 @@
+body {
+  padding-top: 200px;
+  background-color: #ff4646;
+
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+
+.block_1 {
+  margin-top: 300px;
+
+}
+
+.play {
+  font-size: 30px;
+  text-align: center;
+  /* float: left; */
+
+}
+
+.formtitle {
+  font-size: 20px;
+}
+
+.inputtext {
+  font-size: 20px;
+}
+
+/* .box1 {
+  float: right;
+} */

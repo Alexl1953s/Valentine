@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gift</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Your gift is here...</h1>
+    <br><br><br>
+    <img src="images/File_001.jpeg" alt="photo-2" width="30%">
+
+  <!-- ############################################################################## -->
+
+  <form>
+  <input name="pass" id="pass" type="password">
+  <input type="button" value="Submit" onclick="myFunction()">
+  </form>
+
+
+  <script>
+  function myFunction(){
+    var pass = document.getElementById("pass").value;
+
+  if( pass == "200816"){
+              window.location.href="second_place.html"
+          alert("correct");
+     }else{
+      alert("Incorrect username or password");
+      }
+  }
+  </script>
+
+  <!-- ####################################################################################### -->
+  </body>
+</html>
